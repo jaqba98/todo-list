@@ -1,1 +1,1 @@
-export * from './lib/ui-controls/ui-controls.component';
+export * from './lib/button/button.component';

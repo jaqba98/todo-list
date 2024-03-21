@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { UiControlsComponent } from '@todo-list/ui-controls';
+import { ButtonComponent } from '@todo-list/ui-controls';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, UiControlsComponent],
+  imports: [RouterModule, ButtonComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
