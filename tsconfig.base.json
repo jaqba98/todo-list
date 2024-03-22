@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@todo-list/ui-control": ["libs/ui-control/src/index.ts"],
-      "@todo-list/ui-form": ["libs/ui-form/src/index.ts"]
+      "@todo-list/ui-form": ["libs/ui-form/src/index.ts"],
+      "@todo-list/ui-view": ["libs/ui-view/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
