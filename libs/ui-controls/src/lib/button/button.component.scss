@@ -1,0 +1,13 @@
+.button {
+    font-size: 1em;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: darkviolet;
+    border: 1px solid darkviolet;
+    color: white;
+    cursor: pointer;
+
+    &:active {
+        opacity: 0.9;
+    }
+}
