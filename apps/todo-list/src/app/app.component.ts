@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { UiFormsComponent } from '@todo-list/ui-forms';
+import { UiFormComponent } from '@todo-list/ui-form';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, UiFormsComponent],
+  imports: [RouterModule, UiFormComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

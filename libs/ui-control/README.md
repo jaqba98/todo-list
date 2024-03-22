@@ -1,7 +1,7 @@
-# ui-controls
+# ui-control
 
 This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test ui-controls` to execute the unit tests.
+Run `nx test ui-control` to execute the unit tests.

@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'ui-forms',
+  displayName: 'ui-form',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/libs/ui-forms',
+  coverageDirectory: '../../coverage/libs/ui-form',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

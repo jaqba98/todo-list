@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@todo-list/ui-controls": ["libs/ui-controls/src/index.ts"],
-      "@todo-list/ui-forms": ["libs/ui-forms/src/index.ts"]
+      "@todo-list/ui-control": ["libs/ui-control/src/index.ts"],
+      "@todo-list/ui-form": ["libs/ui-form/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

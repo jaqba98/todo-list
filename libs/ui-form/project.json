@@ -1,7 +1,7 @@
 {
-  "name": "ui-forms",
+  "name": "ui-form",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/ui-forms/src",
+  "sourceRoot": "libs/ui-form/src",
   "prefix": "lib",
   "tags": [],
   "projectType": "library",
@@ -10,7 +10,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/ui-forms/jest.config.ts"
+        "jestConfig": "libs/ui-form/jest.config.ts"
       }
     },
     "lint": {
