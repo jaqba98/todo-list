@@ -1,1 +1,1 @@
-export * from './lib/ui-forms/ui-forms.component';
+export * from './lib/login-form/login-form.component';
