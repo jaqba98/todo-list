@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ButtonComponent } from '@todo-list/ui-controls';
 
 @Component({
-  selector: 'lib-login-form',
+  selector: 'ui-forms-login-form',
   standalone: true,
   imports: [CommonModule, ButtonComponent],
   templateUrl: './login-form.component.html',

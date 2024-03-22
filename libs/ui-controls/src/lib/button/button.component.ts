@@ -1,8 +1,8 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-button',
+  selector: 'ui-controls-button',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './button.component.html',
@@ -10,10 +10,4 @@ import { CommonModule } from '@angular/common';
 })
 export class ButtonComponent {
   @Input() value: any;
-
-  @Output() event = new EventEmitter();
-
-  onClick() {
-    this.event.emit();
-  }
 }
