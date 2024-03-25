@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'ui-page-panel-page',
   standalone: true,
-  imports: [CommonModule],
-  templateUrl: './panel-page.component.html',
-  styleUrl: './panel-page.component.scss',
+  imports: [CommonModule, RouterModule],
+  template: '<router-outlet></router-outlet>'
 })
 export class PanelPageComponent {}
