@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
+
+import { UiPageComponent } from '@todo-list/ui-page';
 
 @Component({
   standalone: true,
-  imports: [RouterModule],
+  imports: [UiPageComponent],
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>'
+  template: '<ui-page></ui-page>'
 })
 export class AppComponent {}
