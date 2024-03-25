@@ -6,6 +6,7 @@ import { TodoListStatisticsComponent } from './todo-list-statistics/todo-list-st
 import { UserSettingsComponent } from './user-settings/user-settings.component';
 
 export const panelPageRoutes: Routes = [
+    { path: '', redirectTo: 'tasks', pathMatch: 'full' },
     { path: 'groups', component: TodoListGroupsComponent },
     { path: 'tasks', component: TodoListTasksComponent },
     { path: 'statistics', component: TodoListStatisticsComponent },

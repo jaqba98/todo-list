@@ -7,8 +7,10 @@ import { PanelPageComponent } from './panel-page/panel-page.component';
 import { panelPageRoutes } from './panel-page/panel-page.routes';
 
 export const uiPageRoutes: Routes = [
+    { path: '', redirectTo: 'login', pathMatch: 'full' },
     { path: 'login', component: LoginPageComponent },
     { path: 'register', component: RegisterPageComponent },
     { path: 'forgot-password', component: ForgotPasswordPageComponent },
-    { path: 'panel', component: PanelPageComponent, children: panelPageRoutes }
+    { path: 'panel', component: PanelPageComponent, children: panelPageRoutes },
+    { path: '**', redirectTo: 'login', pathMatch: 'full' }
 ];
