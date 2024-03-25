@@ -1,14 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { LoginPageComponent } from '@todo-list/ui-page';
 
 @Component({
   standalone: true,
-  imports: [RouterModule, LoginPageComponent],
+  imports: [RouterModule],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  template: '<router-outlet></router-outlet>'
 })
-export class AppComponent {
-  title = 'todo-list';
-}
+export class AppComponent {}

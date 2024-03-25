@@ -1,1 +1,1 @@
-export * from './lib/login-page/login-page.component';
+export * from './lib/ui-page.routes';
