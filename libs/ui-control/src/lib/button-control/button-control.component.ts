@@ -13,7 +13,11 @@ import { ButtonTypeEnum } from './button-type.enum';
 export class ButtonControlComponent {
   @Input() value: unknown;
 
-  @Input() type: ButtonTypeEnum = ButtonTypeEnum.primary;
+  @Input() type: 'primary'
+               | 'secondary' 
+               | 'success' 
+               | 'danger' 
+               | 'warning' = 'primary';
 
   @Input() fullWidth = false;
 
@@ -21,15 +25,15 @@ export class ButtonControlComponent {
 
   getButtonColor(): string {
     switch(this.type) {
-      case ButtonTypeEnum.primary:
+      case 'primary':
         return 'button__primary';
-      case ButtonTypeEnum.secondary:
+      case 'secondary':
         return 'button__secondary';
-      case ButtonTypeEnum.success:
+      case 'success':
         return 'button__success';
-      case ButtonTypeEnum.danger:
+      case 'danger':
         return 'button__danger';
-      case ButtonTypeEnum.warning:
+      case 'warning':
         return 'button__warning';
       default:
         throw new Error('Not supported button type!');
