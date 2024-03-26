@@ -1,0 +1,41 @@
+.button {
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    color: white;
+    cursor: pointer;
+
+    &__full-width {
+        width: 100%;
+    }
+
+    &:hover {
+        filter: brightness(90%);
+    }
+
+    &:active {
+        filter: brightness(80%);
+    }
+
+    &__primary {
+        background-color: #5bc0de;
+    }
+
+    &__secondary {
+        background-color: #aaaaaa;
+    }
+
+    &__success {
+        background-color: #22bb33;
+    }
+
+    &__danger {
+        background-color: #bb2124;
+    }
+
+    &__warning {
+        background-color: #f0ad4e;
+    }
+}
