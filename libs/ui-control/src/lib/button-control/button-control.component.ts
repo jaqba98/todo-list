@@ -1,8 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ButtonTypeEnum } from './button-type.enum';
-
 @Component({
   selector: 'ui-control-button-control',
   standalone: true,
