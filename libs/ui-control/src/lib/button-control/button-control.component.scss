@@ -38,4 +38,10 @@
     &__warning {
         background-color: #f0ad4e;
     }
+
+    &__reverse-color {
+        background-color: transparent;
+        color: #aaaaaa;
+        padding: 0.5em 0;
+    }
 }

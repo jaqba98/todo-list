@@ -19,6 +19,8 @@ export class ButtonControlComponent {
 
   @Input() fullWidth = false;
 
+  @Input() isText = false;
+
   @Output() event = new EventEmitter();
 
   getButtonColor(): string {

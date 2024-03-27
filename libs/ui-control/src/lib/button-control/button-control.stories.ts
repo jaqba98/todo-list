@@ -14,7 +14,8 @@ export const Primary: Story = {
     args: {
         value: "Hello",
         type: 'primary',
-        fullWidth: false
+        fullWidth: false,
+        isText: false
     }
 };
 
@@ -22,7 +23,8 @@ export const Secondary: Story = {
     args: {
         value: "Hello",
         type: 'secondary',
-        fullWidth: false
+        fullWidth: false,
+        isText: false
     }
 };
 
@@ -30,7 +32,8 @@ export const Success: Story = {
     args: {
         value: "Hello",
         type: 'success',
-        fullWidth: false
+        fullWidth: false,
+        isText: false
     }
 };
 
@@ -38,7 +41,8 @@ export const Danger: Story = {
     args: {
         value: "Hello",
         type: 'danger',
-        fullWidth: false
+        fullWidth: false,
+        isText: false
     }
 };
 
@@ -46,6 +50,7 @@ export const Warning: Story = {
     args: {
         value: "Hello",
         type: 'warning',
-        fullWidth: false
+        fullWidth: false,
+        isText: false
     }
 };

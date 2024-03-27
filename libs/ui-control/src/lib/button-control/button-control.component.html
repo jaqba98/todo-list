@@ -2,5 +2,6 @@
     class="button"
     [ngClass]="getButtonColor()"
     [class.button__full-width]="fullWidth"
+    [class.button__reverse-color]="isText"
     (click)="onClick()"
 >{{ value }}</button>
