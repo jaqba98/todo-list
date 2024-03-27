@@ -1,28 +1,40 @@
 .login-page {
-    display: flex;
-
-    &__header,
-    &__content {
-        min-height: 100svh;
-    }
-
     &__header {
-        flex: 2;
-        background-color: whitesmoke;
+        display: none;
     }
 
     &__content {
-        flex: 1;
         display: flex;
         align-items: center;
         justify-content: center;
+        min-height: 100svh;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+    .login-page {
+        display: flex;
+
+        &__header,
+        &__content {
+            flex: 1;
+        }
+
+        &__header {
+            display: block;
+            background-color: whitesmoke;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .login-page {
         &__header {
-            display: none;
+            flex: 4;
+        }
+
+        &__content {
+            flex: 2;
         }
     }
 }
