@@ -8,6 +8,6 @@ import { LoginFormComponent } from '@todo-list/ui-form';
   standalone: true,
   imports: [CommonModule, LoginFormComponent],
   templateUrl: './login-view.component.html',
-  styleUrl: './login-view.component.scss',
+  styleUrl: './login-view.component.scss'
 })
 export class LoginViewComponent {}

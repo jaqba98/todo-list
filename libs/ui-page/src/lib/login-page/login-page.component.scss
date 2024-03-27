@@ -1,0 +1,28 @@
+.login-page {
+    display: flex;
+
+    &__header,
+    &__content {
+        min-height: 100svh;
+    }
+
+    &__header {
+        flex: 2;
+        background-color: whitesmoke;
+    }
+
+    &__content {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .login-page {
+        &__header {
+            display: none;
+        }
+    }
+}

@@ -8,6 +8,6 @@ import { LoginViewComponent } from '@todo-list/ui-view';
   standalone: true,
   imports: [CommonModule, LoginViewComponent],
   templateUrl: './login-page.component.html',
-  styleUrl: './login-page.component.scss',
+  styleUrl: './login-page.component.scss'
 })
 export class LoginPageComponent {}
